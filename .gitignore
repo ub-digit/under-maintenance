@@ -1,0 +1,36 @@
+# Node
+node_modules/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# Build
+/dist/
+/build/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore system files
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
+
+# Ignore static assets cache
+.cache/
+
+# Ignore public-html generated files (if any)
+public-html/css/bootstrap.min.css.map
