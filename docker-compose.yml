@@ -7,5 +7,5 @@ services:
     volumes:
       # Mount your static files or custom config if needed
       - ./public-html/${SERVICE_UNDER_MAINTENANCE}:/usr/local/apache2/htdocs
-      # - ./my-httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./httpd.conf:/usr/local/apache2/conf/httpd.conf
     restart: unless-stopped
